@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Our Vacation</title>
+  <title>Sommerferie 2026</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;600;700;800&display=swap" rel="stylesheet" />
   <style>
     :root {
       --card: rgba(255, 255, 255, 0.92);
@@ -21,7 +21,7 @@
     body {
       margin: 0;
       min-height: 100vh;
-      font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-family: "Geist", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       color: var(--text);
       line-height: 1.55;
       /* animated tropical sunset gradient */
@@ -44,26 +44,11 @@
 
     header h1 {
       margin: 0;
-      font-family: "Baloo 2", cursive;
+      font-family: "Geist", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       font-weight: 800;
       font-size: clamp(2.4rem, 7vw, 4rem);
       letter-spacing: 0.5px;
       text-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
-    }
-
-    header h1 .wave {
-      display: inline-block;
-      transform-origin: 70% 70%;
-      animation: wave 2.4s ease-in-out infinite;
-    }
-
-    @keyframes wave {
-      0%, 60%, 100% { transform: rotate(0deg); }
-      10% { transform: rotate(16deg); }
-      20% { transform: rotate(-8deg); }
-      30% { transform: rotate(16deg); }
-      40% { transform: rotate(-4deg); }
-      50% { transform: rotate(10deg); }
     }
 
     header p {
@@ -90,7 +75,7 @@
       border-radius: 999px;
       background: rgba(255, 255, 255, 0.92);
       color: var(--text);
-      font-family: "Baloo 2", cursive;
+      font-family: "Geist", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       font-weight: 700;
       font-size: 1.05rem;
       box-shadow: 0 8px 22px rgba(0, 0, 0, 0.18);
@@ -150,7 +135,7 @@
 
     .card-body h2 {
       margin: 0 0 0.35rem;
-      font-family: "Baloo 2", cursive;
+      font-family: "Geist", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       font-weight: 700;
       font-size: 1.4rem;
       display: flex;
@@ -182,14 +167,14 @@
     }
 
     @media (prefers-reduced-motion: reduce) {
-      body, header h1 .wave, .card { animation: none; }
+      body, .card { animation: none; }
       .card { opacity: 1; transform: none; }
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Sommerferie 2026 <span class="wave">🌴</span></h1>
+    <h1>Sommerferie 2026</h1>
     <p>Japan &amp; Bali</p>
     <div class="destinations">
       <span class="badge"><span class="flag">🇯🇵</span> Japan ⛩️</span>
